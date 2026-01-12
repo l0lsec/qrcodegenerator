@@ -5,12 +5,8 @@ A beautiful, privacy-focused QR code generator that runs entirely in your browse
 ## Screenshots
 
 ### Main Interface
-![QR Forge Main Interface](screenshots/qr-forge-initial.png)
+![QR Forge Main Interface](screenshots/qrdash.png)
 *Clean, modern interface with dark theme*
-
-### Color Customization
-![QR Forge Teal Theme](screenshots/qr-forge-teal.png)
-*Beautiful color presets — shown here with teal theme*
 
 ## Features
 
