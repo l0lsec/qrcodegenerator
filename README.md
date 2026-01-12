@@ -6,7 +6,7 @@ A beautiful, privacy-focused QR code generator that runs entirely in your browse
 
 ### Main Interface
 ![QR Forge Main Interface](screenshots/qrdash.png)
-*Clean, modern interface with dark theme*
+*Dashboard*
 
 ## Features
 
