@@ -26,9 +26,22 @@ A beautiful, privacy-focused QR code generator that runs entirely in your browse
   - Download as SVG (vector format, perfect for print)
   - Copy to clipboard
 
+## Live demo
+
+**QR Forge** is published on GitHub Pages. After enabling Pages and pushing this repo, it will be available at:
+
+**https://*your-username*.github.io/qrcodegenerator/**
+
+### Enabling GitHub Pages
+
+1. Push this repository to GitHub.
+2. In the repo: **Settings → Pages**.
+3. Under **Build and deployment**, set **Source** to **GitHub Actions**.
+4. The workflow will run on every push to `main` and deploy the site.
+
 ## Usage
 
-Simply open `index.html` in any modern web browser. No server or installation required!
+Simply open `index.html` in any modern web browser, or use the GitHub Pages URL above. No server or installation required!
 
 ### Quick Start
 
@@ -72,10 +85,13 @@ qrcodegenerator/
 ├── index.html        # Main HTML file
 ├── styles.css        # Styling
 ├── app.js            # Application logic
-├── qrcode.min.js     # QRious library (bundled)
+├── .nojekyll         # Disable Jekyll for GitHub Pages
 ├── README.md         # This file
+├── .github/workflows/deploy-pages.yml  # GitHub Pages deploy
 └── screenshots/      # Screenshots for documentation
 ```
+
+QRious is loaded from a CDN in `index.html` so the app works locally and on GitHub Pages without bundling the library.
 
 ## License
 
